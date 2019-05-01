@@ -10,4 +10,5 @@ Events:
      S[keyboard] : switch between fractals.
      L[keyboard] : lock julia values.
      7 and 8[keyboard] : increase/decrease iteration.
+     Left/Right click : increase/decrease iteration.
      MouseWheel : zoom-in/out.
