@@ -69,7 +69,7 @@ int			ft_input_check(t_data *data, int argc, char **argv)
 			data->set = 'm';
 		else if (!ft_strcmp(argv[1], "Sierpinski"))
 			data->set = 's';
-		else if (!ft_strcmp(argv[1], "Burningship"))
+		else if (!ft_strcmp(argv[1], "Burning"))
 			data->set = 'b';
 		else
 			return (0);
