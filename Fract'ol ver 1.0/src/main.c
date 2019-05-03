@@ -58,7 +58,7 @@ int				ft_input_check(t_data *data, int argc, char **argv)
 	{
 		if (!ft_strcmp(argv[1], "Julia"))
 			data->set = 'j';
-		else if (!ft_strcmp(argv[1], "Mandlebrot"))
+		else if (!ft_strcmp(argv[1], "Mandelbrot"))
 			data->set = 'm';
 		else if (!ft_strcmp(argv[1], "Sierpinski"))
 			data->set = 's';
@@ -114,7 +114,7 @@ int				main(int argc, char **argv)
 		return (0);
 	if (!ft_input_check(data, argc, argv))
 	{
-		ft_putendl("Usage: ./fractol [Mandlebrot][Julia][Sierpinski][Burning]");
+		ft_putendl("Usage: ./fractol [Mandelbrot][Julia][Sierpinski][Burning]");
 		free(data);
 		data = NULL;
 		return (0);
