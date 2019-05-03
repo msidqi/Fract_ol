@@ -19,5 +19,5 @@ Events:
 
 
 
-1.1 ver
+1.1 ver.
 Usage: ./fractol [Mandelbrot] [Julia] [Sierp] [Burning] [Tric]
