@@ -15,3 +15,9 @@ Events:
 
 	 Ver 1.0 requires minilibx to be installed on your system.
 	 Use 0.8 for portable version.
+
+
+
+
+1.1 ver
+Usage: ./fractol [Mandelbrot] [Julia] [Sierp] [Burning] [Tric]
