@@ -1,5 +1,5 @@
-# fract_ol
-fractal exploration program [Mandlebrot] [Julia] [Sierpinski] [Burningship] [Tricorn]
+# Fract_ol
+Fractal exploration program : Mandlebrot / Julia / Sierpinski-Triangle / Burningship / Tricorn
 
 
 Usage: ./fractol [Mandelbrot] [Julia] [Sierpinski] [Burningship]
