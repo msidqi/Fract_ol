@@ -8,13 +8,13 @@ Final ver.<br/>
 Usage: ./fractol Mandelbrot Julia Sierpinski Burningship Tricorn<br/>
 
 Events:<br/>
-Arrows : Move.<br/>
-S : Switch between fractals.<br/>
-R : Reset values.<br/>
-C : Change color.<br/>
-L : Lock julia values.<br/>
-Left/Right click : increase/decrease iteration.<br/>
-MouseWheel : zoom-in/out.<br/>
+	Arrows : Move.<br/>
+	S : Switch between fractals.<br/>
+	R : Reset values.<br/>
+	C : Change color.<br/>
+	L : Lock julia values.<br/>
+	Left/Right click : increase/decrease iteration.<br/>
+	MouseWheel : zoom-in/out.<br/>
 <br/>
 <br/>
 ______________________________________________<br/>
