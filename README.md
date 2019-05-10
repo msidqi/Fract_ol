@@ -15,7 +15,7 @@ ________________________________________________________________________________
 |     L[keyboard] : Lock julia values.						|
 |     Left/Right click : increase/decrease iteration.				|
 |     MouseWheel : zoom-in/out.							|
---------------------------------------------------------------------------------
+ _______________________________________________________________________________
 
 0.6 
 Usage: ./fractol [Mandelbrot] [Julia] [Sierpinski] [Burningship]
