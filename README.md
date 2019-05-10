@@ -1,10 +1,25 @@
 # Fract_ol
 Fractal exploration program : Mandlebrot / Julia / Sierpinski-Triangle / Burningship / Tricorn
 
+Multi-threaded Fractal exploration program.
 
+________________________________________________________________________________
+|Final ver.									|
+|Usage: ./fractol [Mandelbrot] [Julia] [Sierpinski] [Burningship] [Tricorn]	|
+|										|
+|Events:									|
+|     Arrows      : Move							|
+|     S[keyboard] : Switch between fractals.					|
+|     R           : Reset values						|
+|     C           : Change color						|
+|     L[keyboard] : Lock julia values.						|
+|     Left/Right click : increase/decrease iteration.				|
+|     MouseWheel : zoom-in/out.							|
+--------------------------------------------------------------------------------
+
+0.6 
 Usage: ./fractol [Mandelbrot] [Julia] [Sierpinski] [Burningship]
 
-Multi-threaded Fractal exploration program.
 
 Events:
      S[keyboard] : switch between fractals.
