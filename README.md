@@ -15,7 +15,9 @@ C : Change color.<br/>
 L : Lock julia values.<br/>
 Left/Right click : increase/decrease iteration.<br/>
 MouseWheel : zoom-in/out.<br/>
-
+<br/>
+<br/>
+______________________________________________<br/>
 0.6 
 Usage: ./fractol [Mandelbrot] [Julia] [Sierpinski] [Burningship]
 
