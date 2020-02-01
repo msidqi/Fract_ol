@@ -225,16 +225,16 @@ z = 0;
 z' = z*z + c; ==> z' = c;
 
 z'' = z*z + c; ==> z'' = (a+bi)(a+bi) + c
-                       = a*a - b*b + 2bi  + c
-					     ( real  ) + (imaginary)
+                       = a*a - b*b + 2abi  + c
+			 ( real  ) + (imaginary)
 
-						so to draw in the complex plane
+so to draw in the complex plane
 
-						>real part a:
-						 x = a*a - b*b + x(real part of c, which is x of the point that we're currently iterating on)
+>real part a:
+	a*a - b*b + x(real part of c, which is x of the pixel that we're currently iterating on)
 
-						>imaginary part b:
-						 x = 2bi + y(imaginary part of c, which is y of the point that we're currently iterating on)
+>imaginary part b:
+	2abi + y(imaginary part of c, which is y of the pixel that we're currently iterating on)
 */
 
 int		mandlebrot_set(t_data *data, double c_x, double c_y)
@@ -251,7 +251,7 @@ int		mandlebrot_set(t_data *data, double c_x, double c_y)
 		imaginary = 2 * real * imaginary + c_y;
 		real = tmpreal;
 		// magnitude = sqrt(r*r + i*i)
-		// if [sqrt(r*r + i*i) > 2 == > r*r + i*i > 4]
+		// if sqrt(r*r + i*i) > 2 == > r*r + i*i > 4
 		if (real * real + imaginary  * imaginary > 4)
 			return (i);
 		i++;
